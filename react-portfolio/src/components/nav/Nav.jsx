@@ -15,8 +15,8 @@ export default function Nav() {
         <a href="#experienceSection" onClick={() => setActiveNav('#experienceSection')} className={ activeNav === '#experienceSection' ? 'active' : ''}><GiSecretBook /></a>
         {/* <a href="#skillsSection" onClick={() => setActiveNav('#skillsSection')} className={ activeNav === '#skillsSection' ? 'active' : ''}><GiSkills /></a> */}
         <a href="#servicesSection" onClick={() => setActiveNav('#skillsSection')} className={ activeNav === '#skillsSection' ? 'active' : ''}><RiServiceFill /></a>
-        {/* <a href="#contactSection" onClick={() => setActiveNav('#contactSection')} className={ activeNav === '#contactSection' ? 'active' : ''}><MdMessage /></a> */}
-        <a href="#portfolioSection" onClick={() => setActiveNav('#portfolioSection')} className={ activeNav === '#contactSection' ? 'active' : ''}><RiFolderOpenFill /></a>
+        <a href="#portfolioSection" onClick={() => setActiveNav('#portfolioSection')} className={ activeNav === '#portfolioSection' ? 'active' : ''}><RiFolderOpenFill /></a>
+        <a href="#contactSection" onClick={() => setActiveNav('#contactSection')} className={ activeNav === '#contactSection' ? 'active' : ''}><MdMessage /></a>
     </nav>
   )
 }

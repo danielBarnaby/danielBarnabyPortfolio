@@ -42,7 +42,7 @@ export default function About() {
            I love to code! I enjoy puzzles and art. Coding brings both of these passions, of mine, together. It is wonderful to face new puzzles everyday. Bringing my ideas to life is another bonus!
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contactSection" className='btn btn-primary'>Let's Talk</a>
           </div>
         </div>
 

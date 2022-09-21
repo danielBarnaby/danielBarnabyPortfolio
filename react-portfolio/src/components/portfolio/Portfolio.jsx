@@ -1,6 +1,5 @@
 import React from 'react'
 import './portfolio.css'
-import { BiUpArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import Image1 from '../../assets/projectPics/cookd1.png'
 import Image2 from '../../assets/projectPics/cookd2.png'
 import Image3 from '../../assets/projectPics/cookd3.png'
@@ -77,8 +76,7 @@ export default function Portfolio() {
                 })   // END **MAP METHOD
               }      {/* END **JavaScript MODE */}
             </div>
-            {/* <a href="#" className='scroll__up'><BiUpArrowAlt />Top of Page</a> */}
-            <a href="#" className='scroll__up'>Top of Page<BiRightArrowAlt /></a>
+            
         </section>
   )
 }
